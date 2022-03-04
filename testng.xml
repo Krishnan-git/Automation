@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Searching an item with item number">
+    <classes>
+      <class name="E2E.ItemSearch"/>
+</classes>
+</test>
+<test name="Sample test">
+    <classes>
+      <class name="E2E.AppTest"/>
+</classes>
+</test>
+<test name="Login function with multiple set of data">
+    <classes>
+      <class name="E2E.LoginFunction"/>
+</classes>
+</test>
+<test name="HomePage Launch">
+    <classes>
+      <class name="E2E.HomePageLaunch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.866 s <<< FAILURE! - in TestSuite
+SearchWithItemNumber(E2E.ItemSearch)  Time elapsed: 7.044 s  <<< FAILURE!
+java.lang.AssertionError: expected [A469131] but found [A469130]
+	at E2E.ItemSearch.SearchWithItemNumber(ItemSearch.java:35)
+
+forgotpassword(E2E.LoginFunction)  Time elapsed: 20.917 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-76GONGC2', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4a703c10fd60acd87943513cef7a615, sendKeysToElement {id=77bb1634-7237-4762-be7b-9accb6d0371f, value=[Ljava.lang.CharSequence;@2264e43c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\dhivk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51170}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51170/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e4a703c10fd60acd87943513cef7a615)] -> css selector: input[name='securityQnAnswer']]
+Session ID: e4a703c10fd60acd87943513cef7a615
+	at E2E.LoginFunction.forgotpassword(LoginFunction.java:82)
+

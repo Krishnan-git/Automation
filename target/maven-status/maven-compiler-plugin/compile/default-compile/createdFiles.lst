@@ -1,0 +1,6 @@
+pageLocators\HomePage.class
+Resources\Base.class
+E2E\App.class
+pageLocators\MyAccount.class
+pageLocators\PDPPage.class
+pageLocators\MAALoginPage.class
