@@ -20,7 +20,9 @@ public class HomePage {
 	
 	public WebElement myAccount()
 	{
+		System.out.println("Test");
 		return driver.findElement(myAccount);
+		
 	}
 	public WebElement getgreetName()
 	{
