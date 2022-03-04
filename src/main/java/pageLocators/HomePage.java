@@ -26,6 +26,7 @@ public class HomePage {
 	}
 	public WebElement getgreetName()
 	{
+		System.out.println("Test2");
 		return driver.findElement(greetName);
 	}
 	public WebElement getSearch()
